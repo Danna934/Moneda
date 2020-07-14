@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Conversor</title>
+    </head>
+    <body>
+        <h1>Convierte de dolares a pesos</h1>
+        <h5>Y pesos a dolares</h5>
+        <br>
+        <form action="convertidor.php" method="POST">
+            <label>Cantidad</label><input type="text" name="cantidad">
+            <br>
+            <h5>selecciona la moneda a la que deseas convertir</h5>
+            <br>
+            <input type="radio" name="moneda" value="0"><label>Dolar</label>
+            <input type="radio" name="moneda" value="1"><label>Peso</label>
+            <br>
+            <input type="submit" name="enviar">
+        </form>
+    </body>
+</html>
